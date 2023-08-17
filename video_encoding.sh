@@ -1,7 +1,8 @@
 #!/bin/bash
 
-input_dir="/path/to/input/directory"
-output_dir="/path/to/output/directory"
+read -p "Enter the input directory" input_dir
+read -p "Enter the output directory" output_dir
+
 codec="libx264" # Change this to the desired codec
 crf="23"        # Constant Rate Factor (adjust as needed)
 
